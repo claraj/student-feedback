@@ -1,0 +1,34 @@
+body {
+    background-color: #bdca9d;
+}
+
+p {
+    text-decoration: underline;
+    font-size: 20x;
+}
+
+/* select elements 
+with the class important  */
+.important {
+    color: red;
+}
+
+/* select by id 
+use # in front of the 
+selector text 
+should match the 
+id in the html element */
+#unique { 
+    border: 10px green solid;
+}
+
+/* can use class with form input elements  */
+.my_input { 
+    border: 3px pink dashed;
+}
+
+/* and id if you want to do something specific */
+#name_input {
+    height: 40px;
+    border-radius: 10px;
+}
